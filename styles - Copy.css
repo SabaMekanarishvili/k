@@ -1,0 +1,46 @@
+body {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.main-question {
+     color: darkred;
+}
+
+.options {
+    margin-top: 50px;
+}
+
+.option {
+    background-color: darkred;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+
+}
+.result-heading {
+    color: darkblue; /* Change color to darkblue */
+}
+
+.instagram-text {
+    font-size: 24px; /* Increase font size */
+    font-weight: bold; /* Make text bold */
+    color: black; /* Set color to black */
+}
+
+
+.option:hover {
+    transition: transform 0.5s;
+    transform: scale(1.1);
+}
